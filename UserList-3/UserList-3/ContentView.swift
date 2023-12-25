@@ -1,21 +1,39 @@
-//
-//  ContentView.swift
-//  UserList-3
-//
-//  Created by Ammar Ahmed on 12/06/1445 AH.
-//
+
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var users:Users?
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            List{
+                ForEach(users?.users ?? [],id:\.id){ user in
+                    HStack{
+                        Text(user.fullName).bold()
+
+                    }
+                    .padding()
+                    .hoverEffect(.lift)
+                    
+                   
+                }
+            }
         }
-        .padding()
+        .task {
+            do{
+                users =  try await getUsers()
+            }catch UserError.invalidData{
+                print("Error InvalidDate")
+            }catch UserError.invalidResponse{
+                print ("Error Invalid Response")
+            }catch UserError.invalidURL{
+                print("Error Invalid Url")
+            }catch{
+                print("Unexpected error")
+            }
+         
+        }
     }
 }
 
