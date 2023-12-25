@@ -8,15 +8,37 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var newsPosts:NewsItems?
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                ForEach(newsPosts?.hits ?? [] ,id:\.objectID){post in
+                    NavigationLink(value:post){
+                        NewsCard(newsPost: post)
+                    }
+                }
+            }
+            .navigationBarTitle("H4xor News")
+            .task {
+                do{
+                    newsPosts = try await getNewsPosts()
+                    
+                
+                }catch NewsErrors.invalidResponse{
+                    print("Error Invalid response")
+                }catch NewsErrors.invalidData{
+                    print("Error Invalid Data ")
+                }catch NewsErrors.invalidURL{
+                    print("Error invalid URL")
+                }catch{
+                    print("unexpected error")
+                }
+            }
         }
-        .padding()
     }
+    
 }
 
 #Preview {

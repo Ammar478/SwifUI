@@ -14,6 +14,9 @@
 		F0571A192B383EA900F527C3 /* h4xor_news_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0571A182B383EA900F527C3 /* h4xor_news_2Tests.swift */; };
 		F0571A232B383EA900F527C3 /* h4xor_news_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0571A222B383EA900F527C3 /* h4xor_news_2UITests.swift */; };
 		F0571A252B383EA900F527C3 /* h4xor_news_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0571A242B383EA900F527C3 /* h4xor_news_2UITestsLaunchTests.swift */; };
+		F0571A322B385AF100F527C3 /* newsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0571A312B385AF100F527C3 /* newsCard.swift */; };
+		F0571A352B3860C300F527C3 /* NewsMangers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0571A342B3860C300F527C3 /* NewsMangers.swift */; };
+		F0571A372B38651000F527C3 /* NewsApiManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0571A362B38651000F527C3 /* NewsApiManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		F0571A1E2B383EA900F527C3 /* h4xor-news-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "h4xor-news-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0571A222B383EA900F527C3 /* h4xor_news_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = h4xor_news_2UITests.swift; sourceTree = "<group>"; };
 		F0571A242B383EA900F527C3 /* h4xor_news_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = h4xor_news_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F0571A312B385AF100F527C3 /* newsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsCard.swift; sourceTree = "<group>"; };
+		F0571A342B3860C300F527C3 /* NewsMangers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsMangers.swift; sourceTree = "<group>"; };
+		F0571A362B38651000F527C3 /* NewsApiManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApiManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,12 @@
 		F0571A062B383EA800F527C3 /* h4xor-news-2 */ = {
 			isa = PBXGroup;
 			children = (
+				F0571A332B3860AA00F527C3 /* Model */,
 				F0571A072B383EA800F527C3 /* h4xor_news_2App.swift */,
 				F0571A092B383EA800F527C3 /* ContentView.swift */,
 				F0571A0B2B383EA900F527C3 /* Assets.xcassets */,
 				F0571A0D2B383EA900F527C3 /* Preview Content */,
+				F0571A312B385AF100F527C3 /* newsCard.swift */,
 			);
 			path = "h4xor-news-2";
 			sourceTree = "<group>";
@@ -125,6 +133,15 @@
 				F0571A242B383EA900F527C3 /* h4xor_news_2UITestsLaunchTests.swift */,
 			);
 			path = "h4xor-news-2UITests";
+			sourceTree = "<group>";
+		};
+		F0571A332B3860AA00F527C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0571A342B3860C300F527C3 /* NewsMangers.swift */,
+				F0571A362B38651000F527C3 /* NewsApiManger.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +276,9 @@
 			files = (
 				F0571A0A2B383EA800F527C3 /* ContentView.swift in Sources */,
 				F0571A082B383EA800F527C3 /* h4xor_news_2App.swift in Sources */,
+				F0571A352B3860C300F527C3 /* NewsMangers.swift in Sources */,
+				F0571A372B38651000F527C3 /* NewsApiManger.swift in Sources */,
+				F0571A322B385AF100F527C3 /* newsCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

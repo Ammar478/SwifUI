@@ -7,12 +7,26 @@
 
 import SwiftUI
 
-struct newsCard: View {
+struct NewsCard: View {
+    var newsPost:Hit?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            HStack(alignment: .center, spacing: 0.0) {
+                Text(newsPost?.title ?? "Title").font(.title).bold()
+                Text(newsPost?.url ?? "URL").foregroundColor(.secondary)
+            }
+            HStack(){
+                Text(String(newsPost?.points ?? 0) ).foregroundColor(.secondary)
+                Text("\(newsPost?.author ?? "Auther") comments").foregroundColor(.secondary)
+
+            }
+            
+        }
     }
 }
 
 #Preview {
-    newsCard()
+    NewsCard().previewLayout(.sizeThatFits)
 }
+
