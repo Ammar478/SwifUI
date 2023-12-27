@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A048E958-9FD4-4F70-8990-A0CADC5C021F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAA75F81-3F56-4C96-B8BE-DB8964FC00C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Manger/View/Home.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "Home"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "FAA75F81-3F56-4C96-B8BE-DB8964FC00C5 - 75d8f29f1cfdcde7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Task_Manger.Home.TaskModel : Task_Manger.TaskViewModel"
+                  moduleName = "Task Manger"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alsalsnany/Postman/Native%20IOS/swiftUIDemo/Task%20Manger/Task%20Manger/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "FAA75F81-3F56-4C96-B8BE-DB8964FC00C5 - 5617f7f1627e9acd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task_Manger.Home.TaskModel.getter : Task_Manger.TaskViewModel"
+                  moduleName = "Task Manger"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alsalsnany/Postman/Native%20IOS/swiftUIDemo/Task%20Manger/Task%20Manger/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "FAA75F81-3F56-4C96-B8BE-DB8964FC00C5 - f64ac087c0649285"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task_Manger.Home.$TaskModel.getter : SwiftUI.ObservedObject&lt;Task_Manger.TaskViewModel&gt;.Wrapper"
+                  moduleName = "Task Manger"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alsalsnany/Postman/Native%20IOS/swiftUIDemo/Task%20Manger/Task%20Manger/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "FAA75F81-3F56-4C96-B8BE-DB8964FC00C5 - f55f621471156e53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of Task_Manger.Home.init(TaskModel: @autoclosure () -&gt; Task_Manger.TaskViewModel, animated: SwiftUI.Namespace) -&gt; Task_Manger.Home"
+                  moduleName = "Task Manger"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alsalsnany/Postman/Native%20IOS/swiftUIDemo/Task%20Manger/Task%20Manger/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92BFEB72-13A4-42F1-A710-AD07B77B9E0C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Manger/View/AddNewTask.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D735ACE7-AC3A-4AE5-A9D7-97824F7E92C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Manger/View/AddNewTask.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
