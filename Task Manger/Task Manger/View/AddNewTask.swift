@@ -127,7 +127,7 @@ struct AddNewTask: View {
                             }
                             .contentShape(Capsule())
                             .onTapGesture {
-                                withAnimation{
+                                withAnimation(.easeOut(duration: 0.2)){
                                     taskModel.taskType = type
                                 }
                             }
