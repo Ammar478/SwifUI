@@ -28,7 +28,7 @@ struct LandmarkRow: View {
                     .foregroundStyle(.yellow)
                     .shadow(radius: 1)
             }
-                
+            
         }
         .padding(.leading,10)
         .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -36,10 +36,11 @@ struct LandmarkRow: View {
 }
 
 #Preview {
-    Group{
+    let landmarks = ModelData().landmarks
+    return  Group{
         LandmarkRow(landmark: landmarks[0])
         LandmarkRow(landmark: landmarks[1])
-
+        
     }
     
 }
