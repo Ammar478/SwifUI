@@ -22,6 +22,12 @@ struct LandmarkRow: View {
                 .foregroundStyle(.primary)
             
             Spacer()
+            
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundStyle(.yellow)
+                    .shadow(radius: 1)
+            }
                 
         }
         .padding(.leading,10)
